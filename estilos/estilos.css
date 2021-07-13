@@ -1,0 +1,24 @@
+body{
+    background-color:black;
+    color: darkorange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.contenedor{
+    
+    padding: 5%;
+    background-color: darksalmon;
+
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height: 40px;
+    
+    
+    
+}
+.seccion{
+    text-align: center;
+}

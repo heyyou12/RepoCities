@@ -104,7 +104,196 @@ let puerto = document.getElementById("puerto");
 const fnAmazonas = ()=>{
    window.open(leticia);
 }
+
+const fnAntioquia = ()=>{
+    window.open(medellin);
+ }
+ const fnArauca = ()=>{
+    window.open(arauca);
+ }
+ const fnAtlantico = ()=>{
+    window.open(barraquilla);
+ }
+ const fnBolivar = ()=>{
+    window.open(cartagena);
+ }
+ const fnBoyaca = ()=>{
+    window.open(tunja);
+ }
+ const fnCaldas = ()=>{
+    window.open(manizales);
+ }
+ const fnCaqueta = ()=>{
+    window.open(florencia);
+ }
+ const fnCasanare = ()=>{
+    window.open(yopal);
+ }
+ const fnCauca = ()=>{
+    window.open(popayan);
+ }
+ const fnCesar = ()=>{
+    window.open(valledupar);
+ }
+ const fnChoco = ()=>{
+    window.open(quibdo);
+ }
+ const fnCordoba = ()=>{
+    window.open(monteria);
+ }
+ const fnCundinamarca = ()=>{
+    window.open(bogota);
+ }
+ const fnGuania = ()=>{
+    window.open(inirida);
+ }
+ const fnGuaviare = ()=>{
+    window.open(sanJose);
+ }
+ const fnHuila = ()=>{
+    window.open(neiva);
+ }
+ const fnGuajira = ()=>{
+    window.open(riohacha);
+ }
+ const fnMagdalena = ()=>{
+    window.open(santaMarta);
+ }
+ const fnMeta = ()=>{
+    window.open(villavicencio);
+ }
+ const fnNarino = ()=>{
+    window.open(pasto);
+ }
+ const fnNSantander = ()=>{
+    window.open(cucuta);
+ }
+ const fnPutumayo = ()=>{
+    window.open(mocoa);
+ }
+ const fnQuindio = ()=>{
+    window.open(armenia);
+ }
+ const fnRisaralda = ()=>{
+    window.open(pereira);
+ }
+ const fnSanAndres = ()=>{
+    window.open(sanAndres);
+ }
+ const fnSantander = ()=>{
+    window.open(bucaramanga);
+ }
+ const fnSucre = ()=>{
+    window.open(sincelejo);
+ }
+ const fnTolima = ()=>{
+    window.open(ibague);
+ }
+ const fnValle = ()=>{
+    window.open(cali);
+ }
+ const fnVaupes = ()=>{
+    window.open(mitu);
+ }
+ const fnVichada =()=>{
+     window.open(puerto);
+ }
+ 
 //eventos
 bntAmazonas.onclick = function () {
     fnAmazonas();
 }
+bntAntioquia.onclick = function () {
+    fnAntioquia();
+}
+bntArauca.onclick = function () {
+    fnArauca();
+}
+bntAtlantico.onclick = function () {
+    fnAtlantico();
+}
+bntBolivar.onclick = function () {
+    fnBolivar();
+}
+bntBoyaca.onclick = function () {
+    fnBoyaca();
+}
+bntCaldas.onclick = function () {
+    fnCaldas();
+}
+bntCaqueta.onclick = function () {
+    fnCaqueta();
+}
+bntCasanare.onclick = function () {
+    fnCasanare();
+}
+bntCauca.onclick = function () {
+    fnCauca();
+}
+bntCesar.onclick = function () {
+    fnCesar();
+}
+bntChoco.onclick = function () {
+    fnChoco();
+}
+bntCordoba.onclick = function () {
+    fnCordoba();
+}
+bntCundinamarca.onclick = function () {
+    fnCundinamarca();
+}
+bntGuania.onclick = function () {
+    fnGuania();
+}
+bntGuaviare.onclick = function () {
+    fnGuaviare();
+}
+bntHuila.onclick = function () {
+    fnHuila();
+}
+bntGuajira.onclick = function () {
+    fnGuajira();
+}
+bntMagdalena.onclick = function () {
+    fnMagdalena();
+}
+bntMeta.onclick = function () {
+    fnMeta();
+}
+bntNariño.onclick = function () {
+    fnNarino();
+}
+bntNSantander.onclick = function () {
+    fnNSantander();
+}
+bntPutumayo.onclick = function () {
+    fnPutumayo();
+}
+bntQuindio.onclick = function () {
+    fnQuindio();
+}
+bntRisaralda.onclick = function () {
+    fnRisaralda();
+}
+bntSanAndres.onclick = function () {
+    fnSanAndres();
+}
+bntSantander.onclick = function () {
+    fnSantander();
+}
+bntSucre.onclick = function () {
+    fnSucre();
+}
+bntTolima.onclick = function () {
+    fnTolima();
+}
+bntValle.onclick = function () {
+    fnValle();
+}
+bntVaupes.onclick = function () {
+    fnVaupes();
+}
+bntVichada.onclick = function () {
+    fnVichada();
+}
+

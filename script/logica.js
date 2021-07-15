@@ -1,4 +1,5 @@
-
+let informacionH2 = document.getElementById("informacion");
+let bntInformacion = document.getElementById("bntInformacion");
 
 let bntAmazonas = document.getElementById("bntAmazonas");
 let leticia = document.getElementById("leticia");
@@ -101,6 +102,33 @@ let puerto = document.getElementById("puerto");
 
 
 //funciones
+const mostrarInformacion = ()=>{
+    let info= prompt("ingresa un departamento:");
+
+    if (info == null || info==="" ) {
+        validarStorage();
+    } else {
+        
+        informacionH2.innerHTML = "Departamento: " + info;
+        localStorage.setItem("departamento", info );
+    }
+
+}
+
+const validarStorage= () => {
+
+    if (localStorage.getItem("departamento")) {
+        informacionH2.innerHTML = "Departamento: " + localStorage.getItem("departamento");
+    } else {
+        informacionH2.innerHTML = "Departamento: 'sin datos'"
+    }
+
+}
+
+
+
+validarStorage();
+
 const fnAmazonas = ()=>{
    window.open(leticia);
 }
@@ -200,6 +228,10 @@ const fnAntioquia = ()=>{
  }
  
 //eventos
+bntInformacion.onclick = function () {
+    mostrarInformacion();
+}
+
 bntAmazonas.onclick = function () {
     fnAmazonas();
 }

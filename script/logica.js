@@ -105,13 +105,21 @@ let puerto = document.getElementById("puerto");
 const mostrarInformacion = ()=>{
     let info= prompt("ingresa un departamento:");
 
-    if (info == null || info==="" ) {
+    while (info == null || info==="") {
+        alert("Por favor ingresa un departamento valido");
+        info= prompt("ingresa un departamento:");
         validarStorage();
-    } else {
-        
-        informacionH2.innerHTML = "Departamento: " + info;
-        localStorage.setItem("departamento", info );
     }
+    // if (info == null || info==="" ) {
+    //     validarStorage();
+    // } else {
+        
+    //     informacionH2.innerHTML = "Departamento: " + info;
+    //     localStorage.setItem("departamento", info );
+    // }
+
+    informacionH2.innerHTML = "Departamento: " + info;
+        localStorage.setItem("departamento", info );
 
 }
 
